@@ -4,7 +4,7 @@
     margin: 0;
 }
     header{
-        background-image: url('/images/software-developer-6521720_1920.jpg');
+        background-image: url('images/software-developer-6521720_1920.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
@@ -12,7 +12,7 @@
         text-align: center;
     }
     .img-me{
-        background-image: url('/images/profileChristian.webp');
+        background-image: url('images/profileChristian.webp');
         background-position: center;
         background-size: cover;
         border-radius: 100%;
@@ -106,7 +106,7 @@
 header{
     background-color: darkcyan;
     background-blend-mode: darken;
-    background-image: url('/images/software-developer-6521720_1920.jpg');
+    background-image: url('images/software-developer-6521720_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -173,7 +173,7 @@ header{
 }
 .info-left{
     background-color: lightgoldenrodyellow;
-    border: 1px soldi black;
+    border: 1px solid black;
     padding: 3rem;
     width: 100%;
 }
