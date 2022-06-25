@@ -174,7 +174,7 @@ html, body{
         letter-spacing: .2rem;
     }
     .about-myprofile{
-        background-image: url('images/profileChristian.webp');
+        background-image: url('/images/profileChristian.webp');
         background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
