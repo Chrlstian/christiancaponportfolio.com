@@ -4,7 +4,7 @@
   }
   
   .mountain {
-    background-image: url("images/MountainScenery.webp");
+    background-image: url("../images/MountainScenery.webp");
     background-size: contain;
     background-color: lightblue;
     background-blend-mode: color-burn;
