@@ -175,6 +175,7 @@ html, body{
     }
     .about-myprofile{
         background-image: url('images/profilechristian.webp');
+        border: 1px solid #fff;
         background-position: top;
         background-repeat: no-repeat;
         background-size: contain;
