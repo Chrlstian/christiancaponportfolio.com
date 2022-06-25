@@ -46,18 +46,18 @@ header{
         width: 500px;
         height: 300px;
         background-size: cover;
-        background-image: url('images/boracaysmall.webp');
+        background-image: url('../images/boracaysmall.webp');
     }
     .img2{
         width: 400px;
         height: 300px;
-        background-image: url('images/britania.webp');
+        background-image: url('../images/britania.webp');
         background-size: cover;
     }
     .img3{
         width: 400px;
         height: 300px;
-        background-image: url('images/enchanted\ River.webp');
+        background-image: url('../images/enchanted\ River.webp');
         background-size: cover;
     }
 .image-container2{
@@ -71,17 +71,17 @@ header{
         width: 500px;
         height: 300px;
         background-size: cover;
-        background-image: url('images/river-2681380_640.webp');
+        background-image: url('../images/river-2681380_640.webp');
     }
     .img5{
         width: 500px;
         height: 300px;
         background-size: cover;
-        background-image: url('images/hd-wallpaper-1055091_640.webp');
+        background-image: url('../images/hd-wallpaper-1055091_640.webp');
     }
     .img6{
         width: 500px;
         height: 300px;
         background-size: cover;
-        background-image: url('images/fall.webp');
+        background-image: url('../images/fall.webp');
     }
