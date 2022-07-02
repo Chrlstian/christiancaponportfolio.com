@@ -20,7 +20,7 @@ body{
         margin-bottom: 1rem;
     }
     #circle{
-        background-image: url("images/fortune.webp");
+        background-image: url("../images/fortune.webp");
         background-position: center;
         background-size: cover;
         border-radius: 100%;
