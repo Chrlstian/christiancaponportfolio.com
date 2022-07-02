@@ -411,7 +411,7 @@ html, body{
             transition: max-height 1s;
         }
         #certificate-box.open{
-            max-height: 20rem;
+            max-height: 40rem;
             transition: max-height 1s;
         }
         #certificate-box .img-a-style .certificateImg{
