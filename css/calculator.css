@@ -1,9 +1,12 @@
+.cal-main{
+    width: 100%;
+}
 .main-container{
     background-color: #000;
     padding: 2rem;
-    width: 25rem;
-    margin: 0 auto;
+    max-width: 25rem;
     border-radius: 10px;
+    margin: 0 auto;
 }
     h2{
         color: #fff;
@@ -54,3 +57,4 @@
     color: #000;
     transition: 0.5s ease-in-out;
 }
+
