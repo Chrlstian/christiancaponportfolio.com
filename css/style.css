@@ -161,6 +161,30 @@ html, body{
     }
     /*--E-Certificate End--*/
 
+/*--mySkills-container---
+----------------------*/
+#mySkills-container{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+    .mySkills-img-container{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 30rem;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+        #mySkills-container .mySkills-img-container img{
+            width: 70px;
+            height: 70px;
+            margin-right: 1rem;
+            margin-top: .5rem;
+            
+        }
+        /*--mySkills-container---
+        --------End-----------*/
+
 /*--About Me--*/
 #about-container{
     text-align: center;
@@ -436,6 +460,27 @@ html, body{
         }
         /*--Certificate End--*/
 
+/*--mySkills-container---
+---------------------*/
+#mySkills-container{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 15rem;
+    margin-top: 15rem;
+}
+    .mySkills-img-container{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+        #mySkills-container .mySkills-img-container img{
+            width: 70px;
+            height: 70px;        
+        }
+        /*--mySkills-container---
+        --------End-----------*/
+
 /*--About Me--*/
 #about-container{
     margin-bottom: 15rem;
@@ -515,7 +560,7 @@ html, body{
     }
     /*--Go to top link End--*/
 }
-    /*--media screen min 768px End--*/
+/*--media screen min 768px End--*/
 
 /*--media screen min 924px--*/
 @media screen and (min-width: 1024px) {
@@ -677,6 +722,25 @@ html, body{
         }
         /*--Certificate End--*/
 
+#mySkills-container{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 15rem;
+}
+    .mySkills-img-container{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+        #mySkills-container .mySkills-img-container img{
+            width: 70px;
+            height: 70px;
+                    
+        }
+        /*--mySkills-container---
+        --------End-----------*/
+
 /*--About Me--*/
 #about-container{
     margin-bottom: 15rem;
@@ -756,4 +820,6 @@ html, body{
     }
     /*--Go to top link End--*/
 }
+
+/*--GodBless to this websites--*/
 
