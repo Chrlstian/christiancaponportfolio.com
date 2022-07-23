@@ -275,7 +275,7 @@ body{
         margin-top: 1rem;
     }   
 .heroRight{
-    background-image: url("/IMAGES/cindie-hansen-cvj-7TZjvA0-unsplash.webp");
+    background-image: url("../images/cindie-hansen-cvj-7TZjvA0-unsplash.webp");
     background-size: cover;
     width: 100%;
     display: block;
