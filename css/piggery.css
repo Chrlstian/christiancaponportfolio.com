@@ -106,7 +106,7 @@ body{
         text-align: center;
     }
     #reserveBtn{
-        background-color: #000;
+        background-color: #FF5C00;
         border-radius: 30px;
         color: #fff;
         cursor: pointer;
@@ -115,7 +115,11 @@ body{
         padding: .8rem .5rem;
         text-align: center;
         width: 100%;
-    }   
+        border: 0;
+    } 
+    #reserveBtn:hover{
+        background-color: #13581A;
+    }  
 .heroRight{
     background-image: url("../IMAGES/cindie-hansen-cvj-7TZjvA0-unsplash.webp");
     background-size: cover;
@@ -160,12 +164,48 @@ body{
             font-weight: 900;
             padding: .8rem;
             width: 150px;
+            cursor: pointer;
+        }
+        .buy-el:hover{
+            background-color: #13581A;
         }
     .saleOff{
         display: none;
     }
     /*--content-container-----
     ----------End------------*/
+
+/*--Farm Photos----*/
+.gallery{
+
+}
+    .gallery-name{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 5px 3px rgb(196, 196, 196);
+    }
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        background-color: #fff;
+        padding: 25px;
+    }
+    .grid-items{
+        width: 200px;
+        height: 200px;
+    }
+    .grid-items img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow:  0 0 2px gray;
+    }
+    /*--Farm Photos-------
+    --------End---------*/
 
 /*--Video1----*/
 /* .video-container{
@@ -269,7 +309,7 @@ body{
         text-align: left;
     }
     #reserveBtn{
-        background-color: #000;
+        background-color: #FF5C00;
         color: #fff;
         padding: .5rem;
         margin-top: 1rem;
@@ -283,7 +323,37 @@ body{
 } 
 /*--hero-container-------
 ---------End------------*/
+
+/*--Farm Photos----*/
+.gallery{
+    width: 55rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+    .gallery-name{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .gallery-grid{
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+        padding: 1rem;
+        box-shadow: 0 0 20px gray;
+    }
+    .grid-items{
+        height: 200px;
+    }
+    .grid-items img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        cursor: pointer;
+    }
+    /*--Farm Photos-------
+    --------End---------*/
  }
+
  /*--@media min-width: 768px-----
  ----------End------------------*/
 
