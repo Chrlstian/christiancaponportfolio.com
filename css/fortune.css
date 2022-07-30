@@ -42,8 +42,12 @@
         list-style: none;
         text-align: left;
     }
+        .list-container .list-items button{
+            cursor: pointer;
+        }
         .list-items{
             margin-bottom: .5rem;
+            
         }
 
 @media screen and (min-width: 768px) {
